@@ -208,12 +208,12 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   position: absolute;
-  top: 410px;
+  top: 300px;
   left: 230px;
-  height: 384px;
-  width: 577px;
+  height: 52%;
+  width: 40%;
 }
 .discount_title {
   font-family: 'Dosis';
@@ -241,13 +241,62 @@ button {
 .projects_living_room,
 .projects_dining_room,
 .projects_kitchen {
+  position: relative;
   height: 599px;
   width: 1115px;
   display: flex;
   flex-direction: row;
+  gap: 100px;
   margin: auto;
   align-items: center;
   justify-content: space-between;
+}
+.box {
+  position: absolute;
+  top: 400px;
+  left: 530px;
+  z-index: 10;
+  height: 148px;
+  width: 129px;
+  background-color: #71b3c6;
+  opacity: 50%;
+}
+.box_text {
+  z-index: 11;
+  text-align: center;
+  line-height: 148px;
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+}
+.box1 {
+  position: absolute;
+  top: 320px;
+  left: 430px;
+  z-index: 10;
+  height: 148px;
+  width: 129px;
+  background-color: #71b3c6;
+  opacity: 50%;
+}
+.box2 {
+  position: absolute;
+  top: 320px;
+  left: 560px;
+  z-index: 10;
+  height: 148px;
+  width: 129px;
+  background-color: #71b3c6;
+  opacity: 50%;
+}
+.box3 {
+  position: absolute;
+  top: 320px;
+  left: 440px;
+  z-index: 10;
+  height: 148px;
+  width: 129px;
+  background-color: #71b3c6;
+  opacity: 50%;
 }
 .living_room_description,
 .dining_room_description,
@@ -286,4 +335,18 @@ button {
   padding: 7px;
   height: 43px;
   width: 143px;
+}
+.form {
+  width: 100%;
+  position: relative;
+}
+.sofa {
+  width: 100%;
+}
+.subscribe {
+  z-index: 5;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
