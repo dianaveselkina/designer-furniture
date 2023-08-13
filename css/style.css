@@ -13,6 +13,10 @@ a {
 h1 {
   text-align: center;
 }
+button {
+  border: none;
+  background-color: transparent;
+}
 .banner {
   position: relative;
   width: 100%;
@@ -106,6 +110,10 @@ h1 {
   align-items: center;
   margin-bottom: 93px;
 }
+.single-sofa {
+  border: 2px solid #3e5860;
+  padding: 7px;
+}
 .catalog_block {
   margin-top: 93px;
   width: 77%;
@@ -121,6 +129,7 @@ h1 {
   flex-direction: row;
   justify-content: center;
   gap: 80px;
+  margin-bottom: 50px;
 }
 .catalog_goods {
   height: 786px;
@@ -130,6 +139,12 @@ h1 {
   margin: auto;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
+}
+.catalog_reting {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
 }
 .catalog_item {
   height: 316px;
