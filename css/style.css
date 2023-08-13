@@ -202,6 +202,7 @@ button {
   width: 100%;
   margin-top: 60px;
   position: relative;
+  margin-bottom: 60px;
 }
 .discount_text {
   display: flex;
@@ -236,4 +237,53 @@ button {
 .discount_btn {
   border: 2px solid #3e5860;
   padding: 7px;
+}
+.projects_living_room,
+.projects_dining_room,
+.projects_kitchen {
+  height: 599px;
+  width: 1115px;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+}
+.living_room_description,
+.dining_room_description,
+.bedroom_description,
+.kitchen_description {
+  height: 250px;
+  width: 475px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.living_room_title,
+.dining_room_title,
+.bedroom_title,
+.kitchen_title {
+  font-size: 39px;
+  font-weight: 600;
+  color: #264a51;
+}
+.living_room_text,
+.dining_room_text,
+.bedroom_text,
+.kitchen_text {
+  font-family: 'Dosis';
+  font-weight: 400;
+  font-size: 15px;
+  color: #335e74;
+  text-align: center;
+}
+.living_room_btn,
+.dining_room_btn,
+.bedroom_btn,
+.kitchen_btn {
+  border: 2px solid #3e5860;
+  padding: 7px;
+  height: 43px;
+  width: 143px;
 }
