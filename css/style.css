@@ -37,7 +37,6 @@ button {
   width: 100%;
 }
 .manu_bar {
-  position: relative;
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -349,4 +348,74 @@ button {
   position: absolute;
   top: 0;
   left: 0;
+}
+.footer {
+  height: 408px;
+}
+.footer_list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 116px;
+}
+.footer_logo {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+.footer_logo_text {
+  color: #335e74;
+  font-size: 16px;
+  font-family: 'Dosis';
+  font-weight: 400;
+}
+.footer_icons {
+  height: 37px;
+  width: 180px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.facebook {
+  height: 36px;
+  width: 36px;
+  position: relative;
+}
+.facebook_sign {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 5;
+}
+.footer_text {
+  color: #264a51;
+}
+.footer_list_information {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.footer_block {
+  margin-top: 40px;
+  padding: 10px;
+  height: 134px;
+  width: 235px;
+  background-color: #a0c7ea;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.colortext {
+  color: white;
+}
+.copyright_block {
+  background-color: #d3e2ef;
+  text-align: center;
+}
+.copyright {
+  font-size: 10px;
+  color: #335e74;
 }
