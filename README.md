@@ -1,4 +1,5 @@
 # Сайт дизайнерской мебели
+[Интересно, посмотри...](https://dianaveselkina.github.io/designer-furniture/).
 
 Создан:
 * По макету из Figma
@@ -16,4 +17,4 @@
 
 ![Проекты](https://github.com/dianaveselkina/designer-furniture/assets/120037350/6e91d404-fe03-4e13-bf58-7b8cdf40e5ae)
 
-[Интересно, посмотри...](https://dianaveselkina.github.io/designer-furniture/).
+
